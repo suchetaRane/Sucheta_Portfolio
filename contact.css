@@ -1,0 +1,261 @@
+.sucheta-icon {
+    position: absolute;
+    top: 73px;
+    left: 72px;
+    width: 166px;
+    height: 73px;
+}
+.work {
+    position: absolute;
+    top: 102px;
+    left: 987px;
+    font-size: 24px;
+    display: inline-block; 
+    text-decoration: none; 
+    transition: text-decoration 0.5s ease; 
+    color:#1e1e1e
+}
+
+.work:hover {
+    text-decoration: underline;
+    color: #1e1e1e
+}
+
+.lets-work-together {
+    position: absolute;
+    top: 277px;
+    left: 72px;
+    font-size: 40px;
+    display: inline-block; 
+    text-decoration: none; 
+    transition: text-decoration 0.5s ease; 
+    font-family: Granville;
+}
+.play {
+    position: absolute;
+    top: 102px;
+    left: 1107px;
+    font-size: 24px;
+    display: inline-block; 
+    text-decoration: none; 
+    transition: text-decoration 0.5s ease; 
+    color:#1e1e1e
+}
+
+.play:hover {
+    text-decoration: underline;
+    color: #1e1e1e
+}
+
+.about {
+    position: absolute;
+    top: 102px;
+    left: 1199px;
+    font-size: 24px;
+    display: inline-block; 
+    text-decoration: none; 
+    transition: text-decoration 0.5s ease; 
+    color:#1e1e1e
+}
+
+.about:hover {
+    text-decoration: underline;
+    color: #1e1e1e
+}
+
+.contact1 {
+    position: absolute;
+    top: 102px;
+    left: 1291px;
+    font-size: 24px;
+    display: inline-block; 
+    text-decoration: none; 
+    transition: text-decoration 0.5s ease; 
+    color:#64c164
+}
+
+.contact1:hover {
+    text-decoration: underline;
+    color: #64c164
+}
+
+.contact-child {
+    position: absolute;
+    top: 136px;
+    left: 1291px;
+    max-height: 100%;
+    width: 77px;
+}
+.suchetarane28gmailcom {
+    position: absolute;
+    top: 347px;
+    left: calc(50% - 648px);
+}
+.bangalore-in {
+    position: absolute;
+    top: 398px;
+    left: calc(50% - 648px);
+}
+.twittericon {
+    position: absolute;
+    top: 449px;
+    left: 72px;
+    width: 24px;
+    height: 24px;
+    bottom: 6.17%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    display: flex;
+    transition: transform 0.5s ease; 
+}
+.twittericon:hover {
+  transform: rotate(360deg); 
+}
+.instagramicon {
+    position: absolute;
+    top: 449px;
+    left: 111.98px;
+    width: 24px;
+    height: 24px;
+    bottom: 6.17%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    display: flex;
+    transition: transform 0.5s ease; 
+}
+.instagramicon:hover {
+  transform: rotate(360deg); 
+}
+.youtubeicon {
+    position: absolute;
+    top: 452px;
+    left: 151.98px;
+    width: 24px;
+    height: 18px;
+    bottom: 6.33%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    display: flex;
+    transition: transform 0.5s ease; 
+}
+.youtubeicon:hover {
+  transform: rotate(360deg); 
+}
+.linkedinicon {
+    position: absolute;
+    top: 449px;
+    left: 191.98px;
+    width: 24px;
+    height: 24px;
+    bottom: 6.17%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.linkedinicon:hover {
+  transform: rotate(360deg); 
+}
+.custom-button {
+    position: absolute;
+    top: 775px;
+    left: 732px;
+    width: 86px;
+    height: 46px;
+    background-color: #1e1e1e; 
+    color: white; 
+    padding: 15px 15px; 
+    border: none; 
+    font-family: Granville;
+    font-size: 18px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.custom-button:hover {
+    background-color: #64c164; 
+
+}
+
+.custom-button:active {
+    background-color: #307530; 
+}
+.line-div {
+    position: absolute;
+    top: 869.5px;
+    left: 70.5px;
+    border-top: 1px solid #1e1e1e;
+    box-sizing: border-box;
+    width: 1297px;
+    height: 1px;
+}
+.contact {
+    width: 100%;
+    position: relative;
+    background-color: #f1f1ef;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #1e1e1e;
+    font-family: 'HvDTrial Brandon Grotesque';
+}
+
+
+.input-container {
+    position: absolute;
+    top: 325px;
+    left: 732px;
+    width: 306px;
+    height: 50px;
+    margin-bottom: 15px; 
+}
+label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+input[type="text"] {
+    width: 80%; 
+    padding: 16px; 
+    border: 1px solid #b3b3b3; 
+}
+
+.input-container1 {
+    position: absolute;
+    top: 456px;
+    left: 732px;
+    width: 752px;
+    height: 50px;
+    margin-bottom: 15px; 
+}
+.input-container2 {
+    position: absolute;
+    top: 325px;
+    left: 1063px;
+    width: 336px;
+    height: 100px;
+    margin-bottom: 15px; 
+}
+
+.input-container3 {
+    position: absolute;
+    top: 585px;
+    left: 732px;
+    width: 752px;
+    height: 100px;
+    margin-bottom: 15px; 
+}
+label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+input[type="text"] {
+    width: 80%; 
+    padding: 16px; 
+    border: 1px solid #b3b3b3; 
+}
+

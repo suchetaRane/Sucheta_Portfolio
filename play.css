@@ -1,0 +1,227 @@
+.sucheta-icon {
+  	position: absolute;
+  	top: 73px;
+  	left: 72px;
+  	width: 166px;
+  	height: 73px;
+}
+.work {
+  	position: absolute;
+  	top: 102px;
+  	left: 987px;
+    display: inline-block; 
+    text-decoration: none; 
+    transition: text-decoration 0.5s ease; 
+    color:#1e1e1e
+}
+.work:hover {
+    text-decoration: underline;
+    color: #1e1e1e
+  }
+.play1 {
+  	position: absolute;
+  	top: 102px;
+  	left: 1107px;
+    display: inline-block; 
+    text-decoration: none; 
+    transition: text-decoration 0.5s ease; 
+    color:#64c164
+}
+.play1:hover {
+    text-decoration: underline;
+    color: #64c164
+  }
+.about {
+  	position: absolute;
+  	top: 102px;
+  	left: 1199px;
+    display: inline-block; 
+    text-decoration: none; 
+    transition: text-decoration 0.5s ease;
+    color:#1e1e1e 
+}
+.about:hover {
+    text-decoration: underline;
+    color: #1e1e1e
+  }
+.contact {
+  	position: absolute;
+  	top: 102px;
+  	left: 1291px;
+    display: inline-block; 
+    text-decoration: none; 
+    transition: text-decoration 0.5s ease;
+    color:#1e1e1e 
+}
+.contact:hover {
+    text-decoration: underline;
+    color: #1e1e1e
+  }
+.div {
+  	position: absolute;
+  	top: 1234px;
+  	left: 655px;
+  	font-size: 16px;
+}
+.sucheta-rane-2024 {
+  	position: absolute;
+  	top: 1232px;
+  	left: 682px;
+  	font-size: 16px;
+}
+.play-item {
+  	position: absolute;
+  	top: 1060.5px;
+  	left: 71.5px;
+  	border-top: 1px solid #1e1e1e;
+  	box-sizing: border-box;
+  	width: 1297px;
+  	height: 1px;
+}
+.twittericon {
+  	position: absolute;
+  	top: 1190px;
+  	left: 657px;
+  	width: 24px;
+  	height: 24px;
+    transition: transform 0.5s ease; 
+}
+.twittericon:hover {
+  transform: rotate(360deg); 
+}
+.instagramicon {
+  	position: absolute;
+  	top: 1190px;
+  	left: 696.98px;
+  	width: 24px;
+  	height: 24px;
+    transition: transform 0.5s ease; 
+}
+.instagramicon:hover {
+  transform: rotate(360deg); 
+}
+.youtubeicon {
+  	position: absolute;
+  	top: 1193px;
+  	left: 736.98px;
+  	width: 24px;
+  	height: 18px;
+    transition: transform 0.5s ease; 
+}
+.youtubeicon:hover {
+  transform: rotate(360deg); 
+}
+.linkedinicon {
+  	position: absolute;
+  	top: 1190px;
+  	left: 776.98px;
+  	width: 24px;
+  	height: 24px;
+    transition: transform 0.5s ease; 
+}
+.linkedinicon:hover {
+  transform: rotate(360deg); 
+}
+.creative-pursuits {
+  	position: absolute;
+  	top: 217px;
+  	left: calc(50% - 67px);
+  	font-size: 20px;
+}
+.back-from-when {
+  	position: absolute;
+  	top: 272px;
+  	left: calc(50% - 254px);
+  	font-size: 40px;
+  	font-family: Granville;
+}
+.drawing1-icon {
+  	position: absolute;
+  	top: 359px;
+  	left: 71px;
+  	width: 417px;
+  	height: 300px;
+  	object-fit: contain;
+    transition: border-radius 0.3s ease;
+}
+.drawing1-icon:hover {
+    border-radius: 25px;
+	border: 2px solid, #64c164;
+  }
+.drawing4-icon {
+  	position: absolute;
+  	top: 713px;
+  	left: 513px;
+  	width: 416px;
+  	height: 266px;
+  	object-fit: contain;
+    transition: border-radius 0.3s ease;
+}
+.drawing4-icon:hover {
+    border-radius: 25px;
+	border: 2px solid, #64c164;
+  }
+.photography1-icon {
+  	position: absolute;
+  	top: 359px;
+  	left: 512px;
+  	width: 416px;
+  	height: 332px;
+  	object-fit: cover;
+    transition: border-radius 0.3s ease;
+}
+.photography1-icon:hover {
+    border-radius: 25px;
+	border: 2px solid, #64c164;
+  }
+.photography2-icon {
+  	position: absolute;
+  	top: 359px;
+  	left: 954px;
+  	width: 414px;
+  	height: 620px;
+  	object-fit: cover;
+    transition: border-radius 0.3s ease;
+}
+.photography2-icon:hover {
+    border-radius: 25px;
+	border: 2px solid, #64c164;
+  }
+.drawing2-icon {
+  	position: absolute;
+  	top: 681px;
+  	left: 72px;
+  	width: 196px;
+  	height: 298px;
+  	object-fit: cover;
+    transition: border-radius 0.3s ease;
+}
+.drawing2-icon:hover {
+    border-radius: 25px;
+	border: 2px solid, #64c164;
+  }
+.drawing3-icon {
+  	position: absolute;
+  	top: 681px;
+  	left: 291px;
+  	width: 195px;
+  	height: 298px;
+  	object-fit: cover;
+    transition: border-radius 0.3s ease;
+}
+.drawing3-icon:hover {
+    border-radius: 25px;
+	border: 2px solid, #64c164;
+  }
+.play {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f1f1ef;
+  	height: 1330px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 24px;
+  	color: #1e1e1e;
+  	font-family: 'HvDTrial Brandon Grotesque';
+}
+

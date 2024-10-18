@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=HvDTrial Brandon Grotesque:wght@400&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Granville:wght@700&display=swap" />
+  	
+<style>
+    .sucheta-icon {
+  	position: absolute;
+  	top: 73px;
+  	left: 72px;
+  	width: 166px;
+  	height: 73px;
+}
+.work {
+  	position: absolute;
+  	top: 102px;
+  	left: 987px;
+    display: inline-block; /* Underline effect */
+	text-decoration: none; 
+	transition: text-decoration 0.5s ease; 
+	color:#64c164
+}
+.work:hover {
+  text-decoration: underline;
+  color: #64c164
+}
+.play {
+  	position: absolute;
+  	top: 102px;
+  	left: 1107px;
+    display: inline-block; 
+	text-decoration: none; 
+	transition: text-decoration 0.5s ease; 
+	color:#1e1e1e
+}
+.play:hover {
+  text-decoration: underline;
+  color: #1e1e1e
+}
+.about {
+  	position: absolute;
+  	top: 102px;
+  	left: 1199px;
+    display: inline-block; /* Underline effect */
+	text-decoration: none; 
+	transition: text-decoration 0.5s ease; 
+	color:#1e1e1e
+}
+.about:hover {
+  text-decoration: underline;
+  color: #1e1e1e
+}
+.contact {
+  	position: absolute;
+  	top: 102px;
+  	left: 1291px;
+    display: inline-block; /* Underline effect */
+	text-decoration: none; 
+	transition: text-decoration 0.5s ease; 
+	color:#1e1e1e
+}
+.contact:hover {
+  text-decoration: underline;
+  color: #1e1e1e
+}
+.tedx-child {
+  	position: absolute;
+  	top: 136px;
+  	left: 987px;
+  	max-height: 100%;
+  	width: 51px;
+}
+.div {
+  	position: absolute;
+  	top: 173px;
+  	left: 583px;
+}
+.sucheta-rane-2024 {
+  	position: absolute;
+  	top: 171px;
+  	left: 610px;
+}
+.group-child {
+  	position: absolute;
+  	top: -0.5px;
+  	left: -0.5px;
+  	border-top: 1px solid #1e1e1e;
+  	box-sizing: border-box;
+  	width: 1297px;
+  	height: 1px;
+}
+.twittericon {
+  	position: absolute;
+  	top: 129px;
+  	left: 585px;
+  	width: 24px;
+  	height: 24px;
+	transition: transform 0.5s ease; 
+}
+.twittericon:hover {
+  transform: rotate(360deg); 
+}
+.instagramicon {
+  	position: absolute;
+  	top: 129px;
+  	left: 624.98px;
+  	width: 24px;
+  	height: 24px;
+	transition: transform 0.5s ease; 
+}
+.instagramicon:hover {
+  transform: rotate(360deg); 
+}
+.youtubeicon {
+  	position: absolute;
+  	top: 132px;
+  	left: 664.98px;
+  	width: 24px;
+  	height: 18px;
+	transition: transform 0.5s ease; 
+}
+.youtubeicon:hover {
+  transform: rotate(360deg); 
+}
+.linkedinicon {
+  	position: absolute;
+  	top: 129px;
+  	left: 704.98px;
+  	width: 24px;
+  	height: 24px;
+	transition: transform 0.5s ease; 
+}
+.linkedinicon:hover {
+  transform: rotate(360deg); 
+}
+.parent {
+  	position: absolute;
+  	top: 1490px;
+  	left: 73px;
+  	width: 1296px;
+  	height: 196px;
+  	font-size: 16px;
+}
+.branding {
+  	position: absolute;
+  	top: 217px;
+  	left: calc(50% - 35px);
+  	font-size: 20px;
+}
+.tedx-pesu {
+  	position: absolute;
+  	top: 272px;
+  	left: calc(50% - 110px);
+  	font-size: 40px;
+  	font-family: Granville;
+}
+.in-my-first {
+  	position: absolute;
+  	top: 758px;
+  	left: calc(50% + 12px);
+  	font-size: 20px;
+  	display: inline-block;
+  	width: 636px;
+}
+.scroll-to-the {
+  	position: absolute;
+  	top: 1447px;
+  	left: 1240px;
+    display: none; /* Hidden by default */
+	padding: 20px 20px;
+    color: #1e1e1e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.5s ease; 
+}
+.scroll-to-the:hover {
+  color: #64c164;
+  transform: scale(1.1)
+} 
+.stage2-icon {
+  	position: absolute;
+  	top: 713px;
+  	left: 73px;
+  	width: 362px;
+  	height: 219px;
+  	object-fit: cover;
+}
+.stage1-icon {
+  	position: absolute;
+  	top: 399px;
+  	left: 72px;
+  	width: 362px;
+  	height: 297px;
+  	object-fit: cover;
+}
+.standee-icon {
+  	position: absolute;
+  	top: 399px;
+  	left: 485px;
+  	width: 221px;
+  	height: 533px;
+  	object-fit: cover;
+}
+.banner-icon {
+  	position: absolute;
+  	top: 399px;
+  	left: 732px;
+  	width: 637px;
+  	height: 318px;
+  	object-fit: cover;
+}
+.brochure-icon {
+  	position: absolute;
+  	top: 986px;
+  	left: 73px;
+  	width: 415px;
+  	height: 321px;
+  	object-fit: cover;
+}
+.tees-icon {
+  	position: absolute;
+  	top: 986px;
+  	left: 507px;
+  	width: 478px;
+  	height: 319px;
+  	object-fit: cover;
+}
+.varsity-icon {
+  	position: absolute;
+  	top: 986px;
+  	left: 1025px;
+  	width: 305px;
+  	height: 305px;
+  	object-fit: cover;
+}
+.tedx {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f1f1ef;
+  	height: 1760px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 24px;
+  	color: #1e1e1e;
+  	font-family: 'HvDTrial Brandon Grotesque';
+}
+.back-button {
+    position: fixed; 
+    top: 20px;
+    left: 20px;
+    background-color: #1e1e1e; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 2px; 
+	font-family: 'HvDTrial Brandon Grotesque';
+    font-size: 16px; 
+    z-index: 1000; 
+}
+
+.back-button:hover {
+    background-color: #64c164; 
+}
+
+
+</style>  	
+  	
+</head>
+<body>
+	<a href="index.html" class="back-button">← Back</a>
+  	<div class="tedx">
+    		<a href="index.html">
+				<img class="sucheta-icon no-transition" alt="" src="Sucheta.svg">
+			</a>
+    		
+            <button id="scrollToTopBtn" class="scroll-to-the">Back to the top ↑</button>
+
+    		<a href="index.html" class="work">Work</a>
+    		<a href="play.html" class="play">Play</a>
+            <a href="about.html" class="about">About</a>
+			<a href="contact.html" class="contact">Contact</a>
+
+    		
+    		<div class="parent">
+      			<div class="div">© </div>
+      			<div class="sucheta-rane-2024">Sucheta Rane 2024</div>
+      			<div class="group-child">
+      			</div>
+      			<img class="twittericon" alt="" src="TwitterIcon.svg">
+      			
+      			<img class="instagramicon" alt="" src="InstagramIcon.svg">
+      			
+      			<img class="youtubeicon" alt="" src="YoutubeIcon.svg">
+      			
+				<a href="https://www.linkedin.com/in/sucheta-rane-a3b981155/">
+					<img class="linkedinicon" alt="" src="LinkedinIcon.svg">
+				</a>
+      			
+      			
+    		</div>
+    		<div class="branding">Branding</div>
+    		<b class="tedx-pesu">TEDX PESU </b>
+    		<div class="in-my-first">In my first year at PES University, I was a member of TEDxPESU, which is an attempt to bring the TED format to PESU and provide for deep and engaging talks. It serves as a platform for the PESU community to share, discuss and go beyond ideas, with annual events and smaller activites such as TED circles and TED Salons. I was a member of the Design domain and worked on various branding deliverables for the promotion of the events.</div>
+    		
+    		<img class="stage2-icon" alt="" src="Stage2.png">
+    		
+    		<img class="stage1-icon" alt="" src="Stage1.png">
+    		
+    		<img class="standee-icon" alt="" src="Standee.png">
+    		
+    		<img class="banner-icon" alt="" src="Banner.png">
+    		
+    		<img class="brochure-icon" alt="" src="Brochure.png">
+    		
+    		<img class="tees-icon" alt="" src="Tees.png">
+    		
+    		<img class="varsity-icon" alt="" src="Varsity.png">
+    		
+  	</div>
+
+      <script>
+        // Get the button
+        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    
+        // Show the button when scrolling down
+        window.onscroll = function() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollToTopBtn.style.display = 'block';
+            } else {
+                scrollToTopBtn.style.display = 'none';
+            }
+        };
+    
+        // Scroll to top function
+        scrollToTopBtn.onclick = function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' 
+            });
+        };
+
+    </script>
+  	
+  	
+  	
+  	
+</body>
+</html>
